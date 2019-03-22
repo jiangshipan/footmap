@@ -1,0 +1,1 @@
+package com.jsp.footmap.utils;import com.alibaba.fastjson.JSON;import java.util.Map;/** * json工具类 */public class jsonUtils {    /**     * jsonStr to map     * @param jsonStr     * @return     */    public static Map<String, String> StrToMap(String jsonStr) {        Map<String, String> map = (Map<String, String>) JSON.parse(jsonStr);        return map;    }}

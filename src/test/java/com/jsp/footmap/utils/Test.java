@@ -1,0 +1,1 @@
+package com.jsp.footmap.utils;public class Test {    @org.junit.Test    public void test1(){        String tokens = "asdasdsadasdsaduser192.168.0.1";        String realIp = tokens.substring(tokens.indexOf("user"));        System.out.println(realIp);    }}
