@@ -1,1 +1,0 @@
-package com.jsp.footmap.utils;import org.junit.Assert;import java.util.Date;public class Test {//    @org.junit.Test//    public void test1(){//        String tokens = "asdasdsadasdsaduser192.168.0.1";//        String realIp = tokens.substring(tokens.indexOf("user"));//        Assert.assertEquals("错误", "user192.162.0.1", realIp);//    }}
